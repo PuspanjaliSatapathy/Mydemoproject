@@ -13,6 +13,7 @@ public class Invokebr {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\my pc\\Selenium-Download\\chromedriver_win32\\chromedriver.exe");
 		 driver= new ChromeDriver();
 		 System.out.println("chrome browser");
+		 System.out.println("Browser started");
 		 driver.get(url);
 		 driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
          driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
