@@ -10,7 +10,7 @@ public class Invokebr {
 
 	public static WebDriver openbrowser(String url, String browsername) {
 		WebDriver driver = null;
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\subha\\Downloads\\Anjali\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\my pc\\Selenium-Download\\chromedriver_win32\\chromedriver.exe");
 		 driver= new ChromeDriver();
 		 System.out.println("chrome browser");
 		 driver.get(url);
