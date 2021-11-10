@@ -15,7 +15,7 @@ public class Invokebr {
 		System.setProperty("webdriver.chrome.driver",projectpath+"\\src\\test\\resources\\drivers\\chromedriver.exe ");
 		 driver= new ChromeDriver();
 		 System.out.println("chrome browser");
-		 System.out.println("testing");
+		 System.out.println("testing1");
 		
 		
 		 driver.get(url);
