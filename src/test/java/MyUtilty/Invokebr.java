@@ -10,9 +10,14 @@ public class Invokebr {
 
 	public static WebDriver openbrowser(String url, String browsername) {
 		WebDriver driver = null;
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\subha\\Downloads\\Anjali\\chromedriver_win32\\chromedriver.exe");
+		String projectpath=System.getProperty("user.dir");
+		
+		System.setProperty("webdriver.chrome.driver",projectpath+"\\src\\test\\resources\\drivers\\chromedriver.exe ");
 		 driver= new ChromeDriver();
 		 System.out.println("chrome browser");
+		 System.out.println("testing");
+		
+		
 		 driver.get(url);
 		 driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
          driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
