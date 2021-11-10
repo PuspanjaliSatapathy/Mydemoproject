@@ -16,6 +16,8 @@ public class Invokebr {
 		 driver= new ChromeDriver();
 		 System.out.println("chrome browser");
 		 System.out.println("testing1");
+		 System.out.println("testing1");
+		 System.out.println("testing2");
 		
 		
 		 driver.get(url);
