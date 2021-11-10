@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Guru99.TestingGuru
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.112 sec - in Guru99.TestingGuru
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 115.204 sec - in Guru99.TestingGuru

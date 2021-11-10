@@ -2,55 +2,55 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T17:05:07 EST" name="Surefire suite" finished-at="2021-11-09T17:05:28 EST" duration-ms="20621">
+  <suite started-at="2021-11-09T22:53:24 GMT-05:00" name="Surefire suite" finished-at="2021-11-09T22:55:12 GMT-05:00" duration-ms="108628">
     <groups>
       <group name="regression">
-        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@3234e239]" name="homepage_elements" class="Guru99.TestingGuru"/>
+        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" name="homepage_elements" class="Guru99.TestingGuru"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@3234e239]" name="homepage_elements" class="Guru99.TestingGuru"/>
-        <method signature="TestingGuru.logout()[pri:0, instance:Guru99.TestingGuru@3234e239]" name="logout" class="Guru99.TestingGuru"/>
+        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" name="homepage_elements" class="Guru99.TestingGuru"/>
+        <method signature="TestingGuru.logout()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" name="logout" class="Guru99.TestingGuru"/>
       </group> <!-- sanity -->
       <group name="Smoke">
-        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@3234e239]" name="homepage_elements" class="Guru99.TestingGuru"/>
-        <method signature="TestingGuru.loginwithvaliduser()[pri:0, instance:Guru99.TestingGuru@3234e239]" name="loginwithvaliduser" class="Guru99.TestingGuru"/>
+        <method signature="TestingGuru.homepage_elements()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" name="homepage_elements" class="Guru99.TestingGuru"/>
+        <method signature="TestingGuru.loginwithvaliduser()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" name="loginwithvaliduser" class="Guru99.TestingGuru"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-11-09T17:05:07 EST" name="Surefire test" finished-at="2021-11-09T17:05:28 EST" duration-ms="20621">
+    <test started-at="2021-11-09T22:53:24 GMT-05:00" name="Surefire test" finished-at="2021-11-09T22:55:12 GMT-05:00" duration-ms="108628">
       <class name="Guru99.TestingGuru">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:07 EST" name="beforeMethod" finished-at="2021-11-09T17:05:15 EST" duration-ms="8344" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:53:24 GMT-05:00" name="beforeMethod" finished-at="2021-11-09T22:54:08 GMT-05:00" duration-ms="43912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="homepage_elements()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:15 EST" name="homepage_elements" finished-at="2021-11-09T17:05:16 EST" duration-ms="117" status="PASS">
+        <test-method signature="homepage_elements()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:08 GMT-05:00" name="homepage_elements" finished-at="2021-11-09T22:54:09 GMT-05:00" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage_elements -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:16 EST" name="afterMethod" finished-at="2021-11-09T17:05:16 EST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:09 GMT-05:00" name="afterMethod" finished-at="2021-11-09T22:54:13 GMT-05:00" duration-ms="4297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:16 EST" name="beforeMethod" finished-at="2021-11-09T17:05:20 EST" duration-ms="4601" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:13 GMT-05:00" name="beforeMethod" finished-at="2021-11-09T22:54:35 GMT-05:00" duration-ms="21321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginwithvaliduser()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:20 EST" name="loginwithvaliduser" finished-at="2021-11-09T17:05:22 EST" duration-ms="2008" status="PASS">
+        <test-method signature="loginwithvaliduser()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:35 GMT-05:00" name="loginwithvaliduser" finished-at="2021-11-09T22:54:37 GMT-05:00" duration-ms="2059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvaliduser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:22 EST" name="afterMethod" finished-at="2021-11-09T17:05:22 EST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:37 GMT-05:00" name="afterMethod" finished-at="2021-11-09T22:54:41 GMT-05:00" duration-ms="3828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:22 EST" name="beforeMethod" finished-at="2021-11-09T17:05:27 EST" duration-ms="4538" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:54:41 GMT-05:00" name="beforeMethod" finished-at="2021-11-09T22:55:04 GMT-05:00" duration-ms="23932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="logout()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:27 EST" name="logout" finished-at="2021-11-09T17:05:28 EST" duration-ms="682" status="PASS">
+        <test-method signature="logout()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:55:04 GMT-05:00" name="logout" finished-at="2021-11-09T22:55:09 GMT-05:00" duration-ms="4497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@3234e239]" started-at="2021-11-09T17:05:28 EST" name="afterMethod" finished-at="2021-11-09T17:05:28 EST" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Guru99.TestingGuru@5223e5ee]" started-at="2021-11-09T22:55:09 GMT-05:00" name="afterMethod" finished-at="2021-11-09T22:55:12 GMT-05:00" duration-ms="3523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
